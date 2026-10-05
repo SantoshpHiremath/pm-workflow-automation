@@ -18,7 +18,7 @@ from src.feature_requests import FeatureRequest
 from src.prioritization import score_all
 from src.notifier import notify_critical_requests
 
-WEBHOOK_URL = "https://hooks.example.com/kinexon-pm-alerts"
+WEBHOOK_URL = "https://hooks.example.com/pm-alerts"
 
 
 def _critical_bug():

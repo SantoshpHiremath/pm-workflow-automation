@@ -16,7 +16,7 @@ from openpyxl import load_workbook
 from src.feature_requests import SAMPLE_REQUESTS
 from src.workflow import run_pm_workflow
 
-WEBHOOK_URL = "https://hooks.example.com/kinexon-pm-alerts"
+WEBHOOK_URL = "https://hooks.example.com/pm-alerts"
 
 
 def test_workflow_without_webhook_skips_notifications_entirely(tmp_path):

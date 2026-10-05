@@ -6,8 +6,7 @@ The end-to-end automation this project exists to demonstrate: pull
 requests from the intake queue -> score with RICE -> build the Excel
 KPI dashboard -> notify on anything critical. This is the same shape
 as a real n8n or Power Automate flow (trigger -> transform -> branch ->
-act), built and tested in Python rather than a low-code platform this
-sandbox has no live account for.
+act), built and tested in Python rather than in a low-code platform.
 """
 
 from __future__ import annotations

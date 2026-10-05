@@ -3,8 +3,7 @@ excel_dashboard.py
 ---------------------
 
 Generates a real, formatted Excel KPI dashboard from scored feature
-requests -- directly addressing the posting's "Creating Product KPI
-dashboards" and "Strong Excel skills" asks. Uses openpyxl to write
+requests -- a Product KPI dashboard built in Excel. Uses openpyxl to write
 actual formulas (not pre-computed values baked in from Python), real
 conditional formatting, and a real chart, so the output file is a
 genuine working spreadsheet a PM could open and use, not a static

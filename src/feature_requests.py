@@ -5,10 +5,10 @@ feature_requests.py
 Synthetic product feature-request/bug-report data, modeled on what a
 Product Management team's intake queue actually looks like (a ticket
 title, description, requesting customer segment, estimated reach,
-confidence, and effort) -- not real KINEXON data, which I have no
-access to. This is the "system" this project's workflow automation
-reads from, analogous to what an n8n/Power Automate flow would pull
-from a real tool like Jira, a form, or a spreadsheet.
+confidence, and effort). The data here is synthetic. This is the
+"system" this project's workflow automation reads from, analogous to
+what an n8n/Power Automate flow would pull from a tool like Jira, a
+form, or a spreadsheet.
 """
 
 from __future__ import annotations

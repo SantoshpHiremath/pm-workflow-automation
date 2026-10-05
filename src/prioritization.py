@@ -15,8 +15,8 @@ Bugs get a priority-tier override: a bug affecting enterprise accounts
 is escalated regardless of its raw RICE score, reflecting how PM teams
 actually triage -- reliability issues for large accounts don't wait for
 a quarterly roadmap score, even if the raw math says otherwise. This
-override is disclosed as a business-rule choice, not something RICE
-itself defines.
+override is a business-rule choice layered on top of RICE; RICE itself
+does not define it.
 """
 
 from __future__ import annotations
